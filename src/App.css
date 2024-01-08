@@ -1,0 +1,92 @@
+/* Reset some default styles for better cross-browser consistency */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the base font size and line height */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Add some spacing and styling to headings */
+h1, h2, h3 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+/* Style paragraphs and add spacing */
+p {
+    margin-bottom: 15px;
+}
+
+/* Style links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add some padding and border to a container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style buttons */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #007bff;
+    color: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
