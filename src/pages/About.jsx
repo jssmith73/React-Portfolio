@@ -56,7 +56,7 @@ function About() {
                     <div className="row g-0 mx-lg-0">
                         <div className="col-lg-6 ps-lg-0" style={{ minHeight: "400px" }}>
                             <div className="position-relative h-100">
-                                <img className="mx-auto d-block" src="img\graduation.png" style={{ objectFit: "cover" }} alt="" />
+                                <img className="mx-auto d-block" src="img/profile.jpg" style={{ objectFit: "cover" }} alt="" />
                             </div>
                         </div>
                         <div className="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
