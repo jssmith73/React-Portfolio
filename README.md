@@ -31,7 +31,7 @@ https://josiah-smith-portfolio.netlify.app/
 
 ## Contributions:
 
-    Alan Mecca
+    Alan Mecca @ https://github.com/ajmecca68
 
 ## Tests:
 
