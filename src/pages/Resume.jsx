@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const DownloadableFile = () => {
   const downloadFile = () => {
     // Perform any logic needed before downloading the file
@@ -19,46 +20,103 @@ const DownloadableFile = () => {
   return (
     <div>
       <section className="technical-skills">
-      <div class="container-fluid page-header py-5 mb-5">
-        <div class="container py-5">
-          <h1 class="display-3 text-white mb-3 animated slideInDown text-center">Technical Skills</h1>ject
+        <div className="container-fluid page-header py-5 mb-5">
+          <div className="container py-5">
+            <h1 className="display-3 text-white mb-3 animated slideInDown text-center">Technical Skills</h1>ject
+          </div>
         </div>
-      </div>
-        <ul className='prof'>
-          <li className='prof-li'>Full Stack Development</li>
-          <li className='prof-li'>Salesforce</li>
-          <li className='prof-li'>APIs</li>
-          <li className='prof-li'>CRM</li>
-          <li className='prof-li'>Digital Transformation</li>
-          <li className='prof-li'>MS Office Suite</li>
-          <li className='prof-li'>HubSpot</li>
-          <li className='prof-li'>SQL</li>
-          <li className='prof-li'>HTML</li>
-          <li className='prof-li'>Crystal Reports</li>
-          <li className='prof-li'>JavaScript</li>
-          <li className='prof-li'>Website Design</li>
-          <li className='prof-li'>Business Analysis</li>
-          <li className='prof-li'>E-Commerce</li>
-          <li className='prof-li'>Financial Reporting</li>
-          <li className='prof-li'>Process Analysis</li>
-          <li className='prof-li'>Application Integration</li>
-        </ul>
+        <div className="container-xxl py-5">
+          <div className="container">
+            <div className="row g-5">
+              <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                <div className="d-flex align-items-center justify-content-between mb-2">
+                  {/* <div className="d-flex align-items-center justify-content-center bg-light" style={{ width: "60px", height: "60px" }}>
+                    <i className="bi bi-filetype-html"></i>
+                  </div> */}
+                  <h1 className="display-1 text-light mb-0">01</h1>
+                </div>
+                <h5>Full Stack Development</h5>
+              </div>
+              <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                <div className="d-flex align-items-center justify-content-between mb-2">
+                  {/* <div className="d-flex align-items-center justify-content-center bg-light" style={{ width: "60px", height: "60px" }}>
+                    <i className="fa fa-check fa-2x text-primary"></i>
+                  </div> */}
+                  <h1 className="display-1 text-light mb-0">02</h1>
+                </div>
+                <h5>API'S </h5>
+              </div>
+              <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                <div className="d-flex align-items-center justify-content-between mb-2">
+                  {/* <div className="d-flex align-items-center justify-content-center bg-light" style={{ width: "60px", height: "60px" }}>
+                    <i className="fa fa-drafting-compass fa-2x text-primary"></i>
+                  </div> */}
+                  <h1 className="display-1 text-light mb-0">03</h1>
+                </div>
+                <h5>SQL</h5>
+              </div>
+              <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                <div className="d-flex align-items-center justify-content-between mb-2">
+                  {/* <div className="d-flex align-items-center justify-content-center bg-light" style={{ width: "60px", height: "60px" }}>
+                  <i className="bi bi-filetype-html"></i>    
+                                </div> */}
+                  <h1 className="display-1 text-light mb-0">04</h1>
+                </div>
+                <h5>HTML</h5>
+              </div>
+              <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                <div className="d-flex align-items-center justify-content-between mb-2">
+                  {/* <div className="d-flex align-items-center justify-content-center bg-light" style={{ width: "60px", height: "60px" }}>
+                    <i className="fa fa-drafting-compass fa-2x text-primary"></i>
+                  </div> */}
+                  <h1 className="display-1 text-light mb-0">05</h1>
+                </div>
+                <h5>CSS</h5>
+              </div><div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                <div className="d-flex align-items-center justify-content-between mb-2">
+                  {/* <div className="d-flex align-items-center justify-content-center bg-light" style={{ width: "60px", height: "60px" }}>
+                    <i className="fa fa-drafting-compass fa-2x text-primary"></i>
+                  </div> */}
+                  <h1 className="display-1 text-light mb-0">06</h1>
+                </div>
+                <h5>JavaScript</h5>
+              </div><div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                <div className="d-flex align-items-center justify-content-between mb-2">
+                  {/* <div className="d-flex align-items-center justify-content-center bg-light" style={{ width: "60px", height: "60px" }}>
+                    <i className="fa fa-drafting-compass fa-2x text-primary"></i>
+                  </div> */}
+                  <h1 className="display-1 text-light mb-0">07</h1>
+                </div>
+                <h5>Website-Design</h5>
+            </div>
+            <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                <div className="d-flex align-items-center justify-content-between mb-2">
+                  {/* <div className="d-flex align-items-center justify-content-center bg-light" style={{ width: "60px", height: "60px" }}>
+                    <i className="fa fa-check fa-2x text-primary"></i>
+                  </div> */}
+                  <h1 className="display-1 text-light mb-0">08</h1>
+                </div>
+                <h5>MERN</h5>
+              </div>
+              </div>
+          </div>
+        </div>
       </section>
 
-      <div class="container-fluid page-header py-5 mb-5">
-        <div class="container py-5">
-          <h1 class="display-3 text-white mb-3 animated slideInDown text-center">Resume</h1>ject
+      <div className="container-fluid page-header py-5 mb-5">
+        <div className="container py-5">
+          <h1 className="display-3 text-white mb-3 animated slideInDown text-center">Resume</h1>ject
         </div>
       </div>
-      <div class="container-xxl py-5">
-        <div class="container">
-          <div class="section-title text-center">
-            <h1 class="display-5 mb-5"><a href="#download" onClick={downloadFile}>Click Here To Download!</a></h1>
+      <div className="container-xxl py-5">
+        <div className="container">
+          <div className="section-title text-center">
+            <h1 className="display-5 mb-5"><a href="#download" onClick={downloadFile}>Click Here To Download!</a></h1>
           </div>
         </div>
       </div>
-      </div>
-      );
+    </div>
+  );
 };
 
-      export default DownloadableFile;
+export default DownloadableFile;
