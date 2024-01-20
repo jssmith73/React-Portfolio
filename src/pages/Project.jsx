@@ -1,4 +1,6 @@
-function Project() {
+import Project from '../components/Project'
+
+function Projects() {
     return (
         <div className="container">
             <div className="container-fluid page-header py-5 mb-5">
@@ -107,4 +109,4 @@ function Project() {
         </div >)
 };
 
-export default Project;
+export default Projects;
