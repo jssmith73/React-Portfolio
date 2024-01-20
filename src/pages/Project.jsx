@@ -91,7 +91,7 @@ function Projects() {
                         <div className="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
                             <div className="rounded overflow-hidden">
                                 <div className="position-relative overflow-hidden">
-                                    <img className="img-fluid w-100" src="public\img\projects\local-planting-planner.png" alt="" />
+                                    <img className="img-fluid w-100" src="img\projects\local-planting-planner.png" alt="" />
                                     <div className="portfolio-overlay">
                                             <a className="btn btn-square btn-outline-light mx-1" href="https://itsaboy.github.io/local-planting-planner/"><i className="bi bi-link"></i></a>
                                             <a className="btn btn-square btn-outline-light mx-1" href="https://github.com/itsaboy/local-planting-planner"><i className="bi bi-github"></i></a>
